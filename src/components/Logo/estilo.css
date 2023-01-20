@@ -1,3 +1,10 @@
 .logo {
+  display: flex;
+  font-size: 30px;
+
+
+}
+.logo .logo-img {
   align-items: center;
+  margin-right: 10px;
 }

@@ -1,3 +1,10 @@
-.logo {
-  align-items: center;
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: linear-gradient (90deg, #002f53 35%, #326589) ;
+}
+
+.App-header {
+  background-color: #FFF;
+  display: flex;
 }
