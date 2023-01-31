@@ -1,10 +1,31 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background-color: linear-gradient (90deg, #002f53 35%, #326589) ;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #2e44b6 0%, #a650c8 46%, #f5853a 100%);
+
 }
 
 .App-header {
-  background-color: #FFF;
+  background-color: #fffefe;
   display: flex;
+}
+.opcoes {
+  display: flex;
+}
+
+.opcao {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 5px;
+  cursor: pointer;
+  min-width: 120px;
+}
+
+li {
+  list-style: none;
 }
