@@ -24,7 +24,7 @@ function App() {
        <ul className='icones'>
         {
           icones.map( (icone) => (
-            <li><img src='icone'></img></li>
+            <li><img src={icone}></img></li>
           )
 
           )
