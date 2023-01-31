@@ -1,8 +1,11 @@
 import './App.css';
 import Logo from './components/Logo'
+import perfil from './imagens/perfil.svg'
+import sacola from './imagens/sacola.svg'
 
 
 const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE', 'SOBRE', ]
+const icones = [perfil, sacola]
 
 function App() {
   return (
@@ -16,6 +19,16 @@ function App() {
             <li className='opcao'><p>{texto}</p></li>
           ) ) }
 
+       </ul>
+
+       <ul className='icones'>
+        {
+          icones.map( (icone) => (
+            <li><img src='icone'></img></li>
+          )
+
+          )
+        }
        </ul>
       
       </header>
