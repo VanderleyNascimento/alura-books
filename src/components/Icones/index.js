@@ -1,3 +1,5 @@
+import './icones.css'
+
 import perfil from '../../imagens/perfil.svg'
 import sacola from '../../imagens/sacola.svg'
 
@@ -10,7 +12,7 @@ function Icones () {
      icones.map( (icones) => (
             <li>
 
-              <img src={icones} alt="icone de perfil e sacola"></img>
+              <img className='icone' src={icones} alt="icone de perfil e sacola"></img>
 
             </li>
             )

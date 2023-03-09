@@ -1,15 +1,21 @@
+import './opcoes.css'
+
 const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE', 'SOBRE', ]
 
 function Opcoes () {
     return (
         <ul className='opcoes'>
-        { textoOpcoes.map( (texto) => (
-         <li className='opcao'><p>{texto}</p></li>
+            { textoOpcoes.map( (texto) => (
+
+            <li className='opcao'>
+                 <p>{texto}</p>
+            </li>
             ) ) }
 
-</ul>
+        </ul>
 
-    )
+    );
 }
+
 
 export default Opcoes;
